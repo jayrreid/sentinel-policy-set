@@ -1,4 +1,4 @@
-policy "networking-deny-public-rdp-acl-rules" {
-  source = "./aws-networking-deny-public-rdp-acl-rules.sentinel"
+policy "simple-rules" {
+  source = "./simple.sentinel"
   enforcement_level = "hard-mandatory"
 }
